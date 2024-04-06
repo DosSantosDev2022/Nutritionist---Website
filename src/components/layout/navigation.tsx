@@ -29,10 +29,14 @@ const links = [
   },
 ]
 
-export function Navigation() {
+interface NavigationProps {
+  className: string
+}
+
+export function Navigation({ className }: NavigationProps) {
   return (
-    <nav>
-      <ul className="flex gap-[26px] ">
+    <nav className={`w-full mt-10 lg:mt-0 ${className}`}>
+      <ul className="flex gap-[26px]  flex-col lg:flex-row items-center ">
         {links.map((link) => (
           <li key={link.name}>
             <a
