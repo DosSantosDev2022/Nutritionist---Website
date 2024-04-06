@@ -11,7 +11,7 @@ export function Header() {
     setIsOpen(!isOpen)
   }
   return (
-    <header className="bg-DarkGreen_700 w-full flex flex-col lg:flex-row items-center justify-between lg:h-24 px-20 py-4">
+    <header className="bg-DarkGreen_700 w-full flex flex-col lg:flex-row items-center justify-between lg:h-24 lg:px-20 px-4 lg:py-4 py-5">
       <div className="flex items-center justify-between w-full">
         <Logo />
         <button onClick={handleMobileMenu} type="button" className="lg:hidden">
