@@ -1,8 +1,54 @@
+
+
 {
   "hero" : {
-    "image" : "/assets/home/frame_00.webp",
+    "image" : "/home/frame_00.webp",
      "title" : "Coaching Nutricional Personalizado",
      "subtitle": "Transforme sua ❤️ Saúde com",
      "description" : "Seja bem-vindo ao Nutricionista, o seu aliado na busca pela saúde ideal através de um treinamento nutricional personalizado. Nossa equipe de nutricionistas certificados está pronta para guiá-lo em sua jornada de perda de peso, oferecendo planos feitos sob medida e suporte constante. Inicie a sua transformação hoje mesmo e descubra o impacto do coaching nutricional personalizado."
+  },
+
+  "Features" : {
+    "title" : "Características",
+    "subtitle": "Explore a Seção de Recursos do Nutricionista, o seu guia completo para informações e dicas sobre nutrição e bem-estar.",
+
+    "cards": [
+      {
+        "id": "card01",
+        "icon": "src/assets/home/iCard01.png",
+        "title": "Planos de nutrição personalizados",
+        "description": "Receba um plano nutricional personalizado, projetado especificamente para seu corpo e objetivos. Nossos nutricionistas certificados considerarão suas necessidades exclusivas, preferências alimentares e condições de saúde para criar um plano que melhor se adapte a você."
+      },
+      {
+        "id": "card02",
+        "icon": "src/assets/home/iCard02.png",
+        "title": "Orientação de Nutricionistas Certificados",
+        "description": "Nossa equipe de nutricionistas experientes e certificados fornecerá orientação e suporte profissional durante toda a sua jornada. Eles responderão às suas perguntas, abordarão suas preocupações e o manterão motivado enquanto você trabalha para atingir seus objetivos."
+      },
+      {
+        "id": "card03",
+        "icon": "src/assets/home/iCard03.png",
+        "title": "Rastreamento e Análise de Alimentos",
+        "description": "Acompanhe facilmente sua ingestão de alimentos usando nosso aplicativo fácil de usar. Nossos nutricionistas analisarão seus dados para fornecer informações sobre seus hábitos alimentares, ajudá-lo a identificar áreas para melhoria e fazer recomendações personalizadas."
+      },
+      {
+        "id": "card04",
+        "icon": "src/assets/home/iCard04.png",
+        "title": "Coaching de Estilo de Vida e Comportamento",
+        "description": "Alcançar resultados sustentáveis ​​requer mais do que apenas um plano alimentar. Nossos nutricionistas trabalharão com você para desenvolver hábitos saudáveis, abordar a alimentação emocional e fornecer estratégias para superar obstáculos ao longo do caminho."
+      },
+      {
+        "id": "card05",
+        "icon": "src/assets/home/iCard05.png",
+        "title": "Planejamento de refeições e receitas",
+        "description": "Acesse uma vasta coleção de receitas deliciosas e saudáveis, adaptadas às suas necessidades dietéticas. Nossos nutricionistas também criarão planos de refeições personalizados, tornando mais fácil para você se manter no caminho certo e desfrutar de refeições nutritivas."
+      },
+      {
+        "id": "card06",
+        "icon": "src/assets/home/iCard06.png",
+        "title": "Educação Nutricional e Oficinas",
+        "description": "Amplie seu conhecimento sobre nutrição por meio de artigos informativos e oficinas educativas. Nossos nutricionistas irão equipá-lo com o conhecimento e as ferramentas para fazer escolhas informadas para o sucesso a longo prazo."
+      }
+    ]
   }
 }

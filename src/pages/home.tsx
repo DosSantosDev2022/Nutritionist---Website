@@ -1,10 +1,11 @@
-import { hero } from '../configs/homedata.json'
+import { hero, Features } from '../configs/homedata.json'
 import image from '../assets/home/frame_00.webp'
 import frame12 from '../assets/home/framer_12.webp'
 import { Button } from '../components/button'
 
 export function HomePage() {
   const data = hero
+  const Featuresdata = Features
   return (
     <main>
       <div className=" flex flex-col lg:flex-row items-center justify-between gap-12">
@@ -38,6 +39,41 @@ export function HomePage() {
           </div>
         </div>
       </div>
+
+      <section className="lg:px-[162px] px-4 mt-[150px] bg-absolute_white ">
+        <div className="w-full flex flex-col gap-20">
+          <div className="flex flex-col gap-[10px] text-center">
+            <h2 className="text-5xl text-GreyShades_900 font-bold leading-[72px] ">
+              {Featuresdata.title}{' '}
+            </h2>
+            <span className="ext-GreyShades_800 text-lg leading-[27px] font-normal ">
+              {Featuresdata.subtitle}{' '}
+            </span>
+          </div>
+
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-7">
+            {Featuresdata.cards.map((card) => (
+              <div
+                className="flex flex-col gap-3 bg-GreenShades_200 rounded-md lg:px-[50px] lg:py-[40px] p-7 "
+                key={card.id}
+              >
+                <div className="flex items-center gap-2">
+                  <div className="w-[68px] flex items-center justify-center h-[68px] p-[14px] bg-GreenShades_700  rounded-lg   ">
+                    <img className="" src={card.icon} alt="" />
+                  </div>
+
+                  <h3 className="text-DarkGreen_700 font-bold text-2xl leading-[36px] ">
+                    {card.title}
+                  </h3>
+                </div>
+                <p className="text-DarkGreen_600 font-normal leading-[27px] text-lg ">
+                  {card.description}{' '}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   )
 }
