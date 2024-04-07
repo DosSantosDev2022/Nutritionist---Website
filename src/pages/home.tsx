@@ -1,12 +1,14 @@
-import { hero, Features, blog } from '../configs/homedata.json'
+import { hero, Features, blog, Testimonials } from '../configs/homedata.json'
 import image from '../assets/home/frame_00.webp'
 import frame12 from '../assets/home/framer_12.webp'
 import { Button } from '../components/button'
+import { SvgAspas } from '../components/icons/aspas'
 
 export function HomePage() {
   const data = hero
   const Featuresdata = Features
   const blogdata = blog
+  const Testimonialsdata = Testimonials
   return (
     <main>
       <div className=" flex flex-col lg:flex-row items-center justify-between gap-12">
@@ -119,6 +121,44 @@ export function HomePage() {
                       {post.creatAd}{' '}
                     </span>
                   </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="w-full flex flex-col gap-20 mt-[150px]">
+          <div className="flex flex-col gap-[10px] text-center">
+            <h2 className="text-5xl text-GreyShades_900 font-bold leading-[72px] ">
+              {Testimonialsdata.title}{' '}
+            </h2>
+            <span className="text-GreyShades_800 text-md leading-[27px] font-normal ">
+              {Testimonialsdata.description}{' '}
+            </span>
+          </div>
+
+          <div className="flex items-center gap-4 ">
+            {Testimonialsdata.cards.map((card) => (
+              <div
+                className="bg-GreenShades_200 rounded-md w-full flex flex-col items-start justify-between p-5 h-[400px] "
+                key={card.id}
+              >
+                <div className="flex flex-col gap-8  ">
+                  <SvgAspas />
+                  <p className="text-lg font-normal leading-[27px] text-GreyShades_800 ">
+                    {card.description}
+                  </p>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <img
+                    className="w-[60px] h-[60px] "
+                    src={card.clientImage}
+                    alt={card.clientName}
+                  />
+                  <h6 className="text-lg font-bold leading-[27px] text-DarkGreen_700 ">
+                    {card.clientName}{' '}
+                  </h6>
                 </div>
               </div>
             ))}

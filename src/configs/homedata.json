@@ -102,5 +102,36 @@
             "creatAd": "20, Dezembro 2023 - 5 min leitura"
         }
       ]
+  },
+
+  "Testimonials": {
+    "title" : "Nossos depoimentos" ,
+    "description" : "Nossos clientes satisfeitos compartilham suas histórias de sucesso e experiências em sua jornada para melhorar a saúde e o bem-estar.",
+
+    "cards": [
+      {
+        "id" : "001",
+        "description": "Não posso agradecer o suficiente ao nutricionista por seu treinamento nutricional personalizado. Isso transformou completamente minha abordagem em relação à alimentação e me ajudou a perder aqueles quilos extras. Altamente recomendado!",
+        "clientImage": "/src/assets/home/client02.webp",
+        "clientName" : "Jennifer Anderson"
+      },
+      {
+        "id" : "002",
+        "description": "A nutricionista foi uma virada de jogo para mim. A orientação especializada e o apoio que recebi de sua equipe tornaram minha jornada para perder peso muito mais fácil. Obrigado!",
+        "clientImage": "/src/assets/home/client01.webp",
+        "clientName" : "Robert Johnson"
+      },
+      {
+        "id" : "003",
+        "description": "Lutei com meu peso durante anos até encontrar uma nutricionista. A abordagem personalizada e o plano nutricional personalizado fizeram toda a diferença. Nunca me senti melhor!",
+        "clientImage": "/src/assets/home/client03.webp",
+        "clientName" : "Emily Davis"
+      }
+    ]
+  },
+
+  "Pricing": {
+    "title": "Nossos preços",
+    "description" : "Descrevemos nossas opções flexíveis e acessíveis para apoiá-lo em sua jornada para uma saúde e nutrição ideais. Acreditamos que todos merecem acesso a orientação e recursos nutricionais personalizados"
   }
 }
