@@ -3,7 +3,7 @@ import { twMerge } from 'tailwind-merge'
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'outline' | 'highlight'
+  variant?: 'primary' | 'outline' | 'highlight' | 'action1' | 'action2'
 }
 
 export function Button({
@@ -12,14 +12,16 @@ export function Button({
   ...props
 }: ButtonProps) {
   const variantClasses = {
-    primary: `bg-GreenShades_700 text-GreyShades_900 hover:bg-GreenShades_600 `,
-    outline: `bg-GreyShades_200  text-GreyShades_900 hover:bg-GreyShades_300 `,
+    primary: `bg-GreenShades_700 text-GreyShades_900 hover:bg-GreenShades_600 hover:scale-105 transition-all duration-300`,
+    outline: `bg-GreyShades_200  text-GreyShades_900 hover:bg-GreyShades_300 hover:scale-105 transition-all duration-300 `,
     highlight: ``,
+    action1: `bg-DarkGreen_600 text-absolute_white hover:bg-DarkGreen_500 duration-300`,
+    action2: `bg-GreyShades_200  text-GreyShades_900 hover:bg-GreyShades_300 duration-300`,
   }
 
   const _className = twMerge(
     variantClasses[variant],
-    `appearance-none rounded-md px-5 py-4 text-md font-semibold shadow hover:scale-105 transition-all duration-300`,
+    `appearance-none rounded-md px-5 py-4 text-md font-semibold shadow `,
     className,
   )
 

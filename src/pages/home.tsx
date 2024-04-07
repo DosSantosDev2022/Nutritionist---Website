@@ -1,14 +1,22 @@
-import { hero, Features, blog, Testimonials } from '../configs/homedata.json'
+import {
+  hero,
+  Features,
+  blog,
+  Testimonials,
+  Pricing,
+} from '../configs/homedata.json'
 import image from '../assets/home/frame_00.webp'
 import frame12 from '../assets/home/framer_12.webp'
 import { Button } from '../components/button'
 import { SvgAspas } from '../components/icons/aspas'
+import { PricingComponent } from '../components/pages/home/pricing'
 
 export function HomePage() {
   const data = hero
   const Featuresdata = Features
   const blogdata = blog
   const Testimonialsdata = Testimonials
+  const Pricingdata = Pricing
   return (
     <main>
       <div className=" flex flex-col lg:flex-row items-center justify-between gap-12">
@@ -163,6 +171,19 @@ export function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+
+        <div className="w-full flex flex-col gap-20 mt-[150px]">
+          <div className="flex flex-col gap-[10px] text-center">
+            <h2 className="text-5xl text-GreyShades_900 font-bold leading-[72px] ">
+              {Pricingdata.title}{' '}
+            </h2>
+            <span className="text-GreyShades_800 text-md leading-[27px] font-normal ">
+              {Pricingdata.description}{' '}
+            </span>
+          </div>
+
+          <PricingComponent />
         </div>
       </section>
     </main>
