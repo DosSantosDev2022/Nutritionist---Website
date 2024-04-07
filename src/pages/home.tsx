@@ -1,4 +1,4 @@
-import { hero, Features } from '../configs/homedata.json'
+import { hero, Features, blog } from '../configs/homedata.json'
 import image from '../assets/home/frame_00.webp'
 import frame12 from '../assets/home/framer_12.webp'
 import { Button } from '../components/button'
@@ -6,6 +6,7 @@ import { Button } from '../components/button'
 export function HomePage() {
   const data = hero
   const Featuresdata = Features
+  const blogdata = blog
   return (
     <main>
       <div className=" flex flex-col lg:flex-row items-center justify-between gap-12">
@@ -69,6 +70,56 @@ export function HomePage() {
                 <p className="text-DarkGreen_600 font-normal leading-[27px] text-lg ">
                   {card.description}{' '}
                 </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="w-full flex flex-col gap-20 mt-[150px]">
+          <div className="flex flex-col gap-[10px] text-center">
+            <h2 className="text-5xl text-GreyShades_900 font-bold leading-[72px] ">
+              {blogdata.title}{' '}
+            </h2>
+            <span className="ext-GreyShades_800 text-lg leading-[27px] font-normal ">
+              {blogdata.desccription}{' '}
+            </span>
+          </div>
+
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-7 ">
+            {blogdata.posts.map((post) => (
+              <div
+                key={post.id}
+                className="lg:p-10 p-4  flex flex-col justify-between gap-2 border border-GreyShades_100 rounded-b-md "
+              >
+                <img src={post.image} alt="" />
+
+                <div className="flex flex-col gap-2 ">
+                  <span className="text-lg font-normal leading-[27px] text-GreyShades_800 ">
+                    {post.tag}
+                  </span>
+                  <h4 className="text-[1.625rem] font-bold leading-[39px] text-GreyShades_900   ">
+                    {post.title}
+                  </h4>
+                  <p className="text-md font-normal leading-[27px] text-GreyShades_700 ">
+                    {post.description}
+                  </p>
+                </div>
+
+                <div className="flex gap-4 items-center bg-GreenShades_300 p-5 rounded-md">
+                  <img
+                    className="w-[60px] h-[60px] "
+                    src={post.authorImage}
+                    alt={post.authorName}
+                  />
+                  <div className="flex flex-col ">
+                    <h6 className="text-xl font-bold text-DarkGreen_700  ">
+                      {post.authorName}{' '}
+                    </h6>
+                    <span className="font-normal text-md leading-[27px] text-GreyShades_600 ">
+                      {post.creatAd}{' '}
+                    </span>
+                  </div>
+                </div>
               </div>
             ))}
           </div>

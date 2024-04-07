@@ -50,5 +50,57 @@
         "description": "Amplie seu conhecimento sobre nutrição por meio de artigos informativos e oficinas educativas. Nossos nutricionistas irão equipá-lo com o conhecimento e as ferramentas para fazer escolhas informadas para o sucesso a longo prazo."
       }
     ]
+  },
+
+  "blog" : {
+      "title" : "Nosso blog",
+      "desccription": "Nosso blog é um tesouro de artigos informativos e envolventes escritos por nossa equipe de nutricionistas, nutricionistas e especialistas em bem-estar. Aqui está o que você pode esperar do nosso blog.",
+
+      "posts": [
+        {
+            "id" : "post01",
+            "image" : "/src/assets/home/post01.webp",
+            "tag" : "Perda de peso",
+            "title" : "Os benefícios da hidratação para perda de peso",
+            "description": "Descubra como manter-se hidratado pode apoiar seus objetivos de perda de peso e melhorar a saúde geral.",
+
+            "authorImage": "/src/assets/home/author02.webp",
+            "authorName": "Emily Johnson",
+            "creatAd": "23 Maio 2023 - 5 min leitura"
+        },
+        {
+            "id" : "post02",
+            "image" : "/src/assets/home/post02.webp",
+            "tag" : "Alimentação consciente",
+            "title" : "Cultivando uma relação saudável com a comida",
+            "description": "Aprenda como praticar a alimentação consciente pode ajudá-lo a desenvolver uma relação mais saudável com os alimentos e melhorar seu bem-estar geral.",
+
+            "authorImage": "/src/assets/home/author03.webp",
+            "authorName": "Mindful Eating",
+            "creatAd": "09 Julho 2023 - 8 min leitura"
+        },
+        {
+            "id" : "post03",
+            "image" : "/src/assets/home/post03.webp",
+            "tag" : "Compreendendo os macronutrientes",
+            "title" : "Carboidratos, proteínas e gorduras",
+            "description": "Obtenha uma compreensão abrangente dos macronutrientes e seu papel na sua dieta para uma saúde ideal e controle de peso.",
+
+            "authorImage": "Mark Wilson",
+            "authorName": "/src/assets/home/author01.webp",
+            "creatAd": "04 Janeiro 2023 - 7 min leitura"
+        },
+        {
+            "id" : "post04",
+            "image" : "/src/assets/home/post04.webp",
+            "tag" : "Lanches saudáveis ​​para viagem",
+            "title" : "Opções rápidas e nutritivas",
+            "description": "Explore uma variedade de ideias de lanches convenientes e saudáveis ​​para mantê-lo abastecido ao longo do dia.",
+
+            "authorImage": "/src/assets/home/author02.webp",
+            "authorName": "Emily Johnson",
+            "creatAd": "20, Dezembro 2023 - 5 min leitura"
+        }
+      ]
   }
 }
