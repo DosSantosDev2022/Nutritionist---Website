@@ -15,8 +15,8 @@ export function Button({
     primary: `bg-GreenShades_700 text-GreyShades_900 hover:bg-GreenShades_600 hover:scale-105 transition-all duration-300`,
     outline: `bg-GreyShades_200  text-GreyShades_900 hover:bg-GreyShades_300 hover:scale-105 transition-all duration-300 `,
     highlight: ``,
-    action1: `bg-DarkGreen_600 text-absolute_white hover:bg-DarkGreen_500 duration-300`,
-    action2: `bg-GreyShades_200  text-GreyShades_900 hover:bg-GreyShades_300 duration-300`,
+    action1: `bg-GreyShades_200  text-GreyShades_900`,
+    action2: `bg-DarkGreen_600 text-DarkGreen_50 hover:bg-DarkGreen_500 duration-300`,
   }
 
   const _className = twMerge(

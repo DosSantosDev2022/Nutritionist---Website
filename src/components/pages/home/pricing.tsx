@@ -10,20 +10,20 @@ export function PricingComponent() {
   }
   const cards = Pricing.cards
   return (
-    <div className="flex flex-col items-center gap-[50px] ">
+    <div className="flex flex-col items-center gap-[50px] mb-20 ">
       <div className="flex flex-col items-center w-full justify-center gap-3">
         <div className="flex items-center w-full justify-center">
           <Button
             onClick={() => handleTabChange('monthly')}
-            className="px-6 py-[10px] rounded-none hover:none"
+            className={`px-6 py-[10px] rounded-none ${activeTab === 'monthly' ? 'bg-DarkGreen_600 text-DarkGreen_50 hover:bg-DarkGreen_500' : ''}`}
             variant="action1"
           >
             Mensal
           </Button>
           <Button
             onClick={() => handleTabChange('annual')}
-            className="px-6 py-[10px] rounded-none"
-            variant="action2"
+            className={`px-6 py-[10px] rounded-none ${activeTab === 'annual' ? 'bg-DarkGreen_600 text-DarkGreen_50' : ''}`}
+            variant="action1"
           >
             Anual
           </Button>
@@ -33,7 +33,7 @@ export function PricingComponent() {
         </span>
       </div>
 
-      <div className="flex items-center gap-[30px] ">
+      <div className="grid lg:grid-cols-3 grid-cols-1  gap-[30px] ">
         {cards.map((card) => (
           <div
             key={card.title}
@@ -43,14 +43,14 @@ export function PricingComponent() {
               <h4 className="text-[1.875rem] font-bold text-GreyShades_900 leading-[45px]  ">
                 {card.title}{' '}
               </h4>
-              <span className="text-lg font-normal leading-[27px] text-GreyShades_700 ">
+              <span className="text-md font-normal leading-[27px] text-GreyShades_700 ">
                 {card.subtitle}
               </span>
             </div>
-            <p className="text-md font-normal  text-GreyShades_700 h-[108px] ">
+            <p className="text-md font-normal  text-GreyShades_700 ">
               {card.description}
             </p>
-            <div className="flex flex-col gap-[33px] w-full mt-28 ">
+            <div className="flex flex-col gap-[33px] w-full mt-5  justify-between items-center ">
               <span className="flex items-center gap-1 ">
                 {activeTab === 'monthly' ? (
                   <span className="font-bold text-3xl text-DarkGreen_500 ">
@@ -73,7 +73,7 @@ export function PricingComponent() {
                   </span>
                 )}
               </span>
-              <Button className="w-full" variant="action1">
+              <Button className="w-full" variant="action2">
                 Escolha o plano
               </Button>
             </div>

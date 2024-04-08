@@ -137,21 +137,21 @@
     "cards" : [
       {
         "title" : "Plano básico",
-        "subtitle" : "Up to 50% off on Yearly Plan",
+        "subtitle" : "Até 50% de desconto no plano anual",
         "description" : "Comece sua jornada de saúde com nosso Plano Básico. Inclui treinamento nutricional personalizado, acesso ao nosso aplicativo, assistência no planejamento de refeições e suporte por e-mail.",
         "monthPrice" : "R$: 49,90",
         "AnnualPricing": "R$: 24,90"
       },
       {
         "title" : "Plano Premium",
-        "subtitle" : "Up to 50% off on Yearly Plan",
+        "subtitle" : "Até 50% de desconto no plano anual",
         "description" : "Atualize para nosso plano Premium para obter recursos aprimorados. Além do Plano Básico, você receberá videoconsultas, suporte prioritário e recomendações de receitas personalizadas.",
         "monthPrice" : "R$: 79,90",
         "AnnualPricing": "R$: 39,90"
       },
       {
         "title" : "Plano ultimate",
-        "subtitle" : "Up to 50% off on Yearly Plan",
+        "subtitle" : "Até 50% de desconto no plano anual",
         "description" : "Experimente todos os benefícios do treinamento nutricional personalizado com nosso Plano Ultimate. Aproveite todos os recursos do Plano Premium, além de suporte por chat 24 horas por dia, 7 dias por semana e workshops exclusivos.",
         "monthPrice" : "R$: 99,90",
         "AnnualPricing": "R$: 49,90"

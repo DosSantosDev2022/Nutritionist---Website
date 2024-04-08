@@ -145,7 +145,7 @@ export function HomePage() {
             </span>
           </div>
 
-          <div className="flex items-center gap-4 ">
+          <div className="grid lg:grid-cols-3 grid-cols-1  gap-4 ">
             {Testimonialsdata.cards.map((card) => (
               <div
                 className="bg-GreenShades_200 rounded-md w-full flex flex-col items-start justify-between p-5 h-[400px] "
