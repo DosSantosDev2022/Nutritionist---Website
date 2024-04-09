@@ -2,6 +2,73 @@
   "welcome" : {
     "title" : "Bem-vindo ao Nutritionist",
     "content" : "Sua fonte confiável para treinamento nutricional personalizado. Nossa missão é ajudá-lo a atingir suas metas de perda de peso e saúde por meio de planos nutricionais personalizados e orientação especializada. Entendemos que cada indivíduo é único e é por isso que acreditamos em fornecer soluções personalizadas que se adaptam ao seu estilo de vida e preferências.Com nossa equipe de nutricionistas e nutricionistas qualificados, nos dedicamos a capacitar você com o conhecimento e as ferramentas necessárias para fazer mudanças duradouras. Se você deseja perder quilos extras, melhorar seu bem-estar geral ou desenvolver uma relação mais saudável com a alimentação, estamos aqui para apoiá-lo em cada etapa do caminho. Na Nutricionista, acreditamos que uma alimentação saudável deve ser agradável e sustentável. Enfatizamos a importância de uma alimentação balanceada, com foco em alimentos integrais e práticas alimentares conscientes. Nossa abordagem está enraizada em pesquisas científicas e estratégias baseadas em evidências, garantindo que você receba as informações mais atualizadas e precisas.Junte-se à nossa comunidade de indivíduos comprometidos em transformar suas vidas através da nutrição. Assuma o controle da sua saúde, aumente os seus níveis de energia e descubra a alegria de nutrir o seu corpo com alimentos saudáveis. Estamos aqui para orientá-lo em direção a uma vida mais saudável e feliz"
+  },
 
+  "Story" : {
+    "title" : "Nossa história",
+    "description" : "Bem-vindo ao Nutricionista, seu parceiro para alcançar a saúde ideal por meio de treinamento nutricional personalizado. Nossos nutricionistas certificados estão aqui para orientá-lo em sua jornada para perder peso.",
+
+    "cards" : [
+      {
+        "title" : "História inspiradora de transformações",
+        "description": "O nutricionista continua a capacitar os indivíduos a transformar suas vidas por meio de treinamento nutricional personalizado. Com uma base de clientes em expansão e uma equipa crescente de especialistas, continuamos comprometidos com o nosso objetivo de ajudar as pessoas a perder peso, melhorar a sua saúde e levar uma vida mais feliz e gratificante. Nossa jornada de transformações inspiradoras continua, um cliente de cada vez.",
+        "data" : "05 de julho de 2025",
+        "image" : "./src/assets/about/image.png"
+      },
+      {
+        "title" : "História de reconhecimentos e elogios",
+        "description": "Nutricionista recebeu reconhecimento do setor por sua excelência em treinamento nutricional personalizado. Nossa abordagem inovadora e dedicação ao sucesso do cliente nos renderam elogios e solidificaram nossa posição como fornecedor líder na área.",
+        "data" : "10 de março de 2023",
+        "image" : "./src/assets/about/image-1.png"
+      },
+      {
+        "title" : "História de crescimento contínuo",
+        "description": "A nutricionista comemorou o atendimento a mais de 5.000 clientes, uma prova do nosso compromisso em ajudar as pessoas a atingirem suas metas de saúde e perda de peso. Este marco destacou o impacto positivo que causamos na vida de milhares de pessoas.",
+        "data" : "2 de novembro de 2021",
+        "image" : "./src/assets/about/image-2.png"
+      },
+      {
+        "title" : "Colaborando para uma história de sucesso",
+        "description": "A nutricionista estabeleceu parcerias com profissionais de saúde renomados, incluindo nutricionistas, nutricionistas e especialistas em bem-estar. Essas colaborações nos permitiram incorporar diversas perspectivas e conhecimentos, garantindo o mais alto nível de orientação aos nossos clientes.",
+        "data" : "15 de julho de 2019",
+        "image" : "./src/assets/about/image-3.png"
+      },
+      {
+        "title" : "História de suporte aprimorada",
+        "description": "Em resposta à crescente demanda por coaching nutricional personalizado, a Nutritionist ampliou sua equipe de nutricionistas e nutricionistas qualificados. Esse marco nos permitiu oferecer atendimento e suporte ainda mais individualizados aos nossos clientes.",
+        "data" : "1º de abril de 2018",
+        "image" : "./src/assets/about/image-4.png"
+      },
+      {
+        "title" : "História de inovação para clientes",
+        "description": "A nutricionista lançou um aplicativo móvel, revolucionando a forma como os clientes se envolvem com seus planos nutricionais personalizados. O aplicativo permitiu fácil acompanhamento do progresso, acesso a recursos e comunicação perfeita com seus treinadores de nutrição dedicados.",
+        "data" : "20 de janeiro de 2017",
+        "image" : "./src/assets/about/image-5.png"
+      },
+      {
+        "title" : "Comemorando histórias de sucesso",
+        "description": "Nutricionista comemorou sua história de sucesso de 500 clientes. Estas histórias demonstraram o impacto positivo do coaching nutricional personalizado na vida dos indivíduos, motivando ainda mais a nossa equipa a continuar a fornecer serviços excepcionais.",
+        "data" : "5 de setembro de 2015",
+        "image" : "./src/assets/about/image-6.png"
+      },
+      {
+        "title" : "História de alcance expandido",
+        "description": "A nutricionista expandiu seus serviços lançando uma plataforma online, permitindo que pessoas de todo o mundo tenham acesso a planos nutricionais personalizados e orientações especializadas. Esse marco trouxe comodidade e acessibilidade à nossa crescente base de clientes.",
+        "data" : "10 de junho de 2014",
+        "image" : "./src/assets/about/image-7.png"
+      },
+      {
+        "title" : "História de pesquisa e experiência",
+        "description": "Após extensa pesquisa e colaboração com especialistas em nutrição, Sarah Mitchell e sua equipe desenvolveram um programa abrangente enraizado no conhecimento científico e em estratégias baseadas em evidências. Este marco marcou o estabelecimento do Nutricionista como uma fonte confiável de treinamento nutricional personalizado.",
+        "data" : "15 de março de 2012",
+        "image" : "./src/assets/about/image-8.png"
+      },
+      {
+        "title" : "A história inicial",
+        "description": "Neste dia, o Nutricionista nasceu com a visão de ajudar as pessoas a atingirem seus objetivos de perda de peso e saúde por meio de coaching nutricional personalizado. A fundadora, Sarah Mitchell, reconheceu a necessidade de uma abordagem sustentável e eficaz para uma vida saudável, e assim iniciou a jornada de Nutricionista.",
+        "data" : "1º de janeiro de 2010",
+        "image" : "./src/assets/about/image-9.png"
+      }
+    ]
   }
 }
