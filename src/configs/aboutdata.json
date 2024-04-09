@@ -70,5 +70,38 @@
         "image" : "./src/assets/about/image-9.png"
       }
     ]
+  },
+
+  "Company": {
+    "title": "Conquistas da Empresa",
+    "description": "Na Nutritionist, temos orgulho de nossas realizações e do impacto positivo que causamos na vida de nossos clientes. Aqui estão algumas de nossas conquistas notáveis",
+
+    "cards" : [
+      {
+        "title" : "Mais de 10.000 transformações",
+        "description": "Nossos planos de nutrição personalizados ajudaram milhares de pessoas a atingir suas metas de perda de peso e a manter um estilo de vida saudável.",
+        "icon" : "src/assets/home/iCard01.png"
+      },
+      {
+        "title" : "Reconhecimento pela Excelência",
+        "description": "A Nutritionist foi reconhecida como fornecedora líder de treinamento nutricional personalizado, recebendo elogios por nossa abordagem inovadora e compromisso com o sucesso do cliente.",
+        "icon" : "src/assets/home/iCard02.png"
+      },
+      {
+        "title" : "Avaliações positivas de clientes",
+        "description": "Recebemos inúmeros depoimentos de clientes satisfeitos que experimentaram melhorias significativas em sua saúde, peso e bem-estar geral por meio de nosso programa de coaching.",
+        "icon" : "src/assets/home/iCard03.png"
+      },
+      {
+        "title" : "Colabore com os principais especialistas em saúde.",
+        "description": "A Nutritionist estabeleceu parcerias com nutricionistas, nutricionistas e especialistas em saúde respeitados para garantir que nossos clientes recebam orientação e suporte da mais alta qualidade.",
+        "icon" : "src/assets/home/iCard05.png"
+      }
+    ]
+  },
+
+  "action" : {
+    "title" : "Estamos orgulhosos de nossas conquistas",
+    "description" : "Mas nossa satisfação final vem de ver nossos clientes atingirem seus objetivos e viverem vidas mais saudáveis ​​e felizes. Junte-se ao nutricionista hoje e embarque em sua própria jornada transformadora em direção à saúde e ao bem-estar ideais."
   }
 }

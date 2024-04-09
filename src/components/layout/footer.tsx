@@ -40,7 +40,7 @@ const links = [
 
 export function Footer() {
   return (
-    <footer className="w-full  lg:px-[162px] lg:py-[50px] p-4 bg-DarkGreen_500 lg:h-[299px] flex flex-col gap-[50px]  ">
+    <footer className="w-full  lg:px-[162px] lg:py-[50px] p-4 bg-DarkGreen_500 lg:h-[299px] flex flex-col gap-[50px] mt-[50px]  ">
       <div className="flex flex-col lg:flex-row gap-5  items-center justify-between ">
         <Logo height={45} width={290} />
         <Navigation.Root className="">
