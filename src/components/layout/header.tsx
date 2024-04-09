@@ -13,7 +13,7 @@ export function Header() {
   return (
     <header className="bg-DarkGreen_700 w-full flex flex-col lg:flex-row items-center justify-between lg:h-24 lg:px-20 px-4 lg:py-4 py-5">
       <div className="flex items-center justify-between w-full">
-        <Logo />
+        <Logo width={195} height={45} />
         <button onClick={handleMobileMenu} type="button" className="lg:hidden">
           {isOpen ? (
             <AiOutlineClose size={50} className="text-GreenShades_700 " />
