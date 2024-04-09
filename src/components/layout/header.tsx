@@ -1,10 +1,41 @@
 import { useState } from 'react'
 import { Logo } from '../logo'
-import { Navigation } from './navigation'
+
 import { HiMiniBars3BottomRight } from 'react-icons/hi2'
 import { AiOutlineClose } from 'react-icons/ai'
+import { Navigation } from './nav/index'
 
 export function Header() {
+  const links = [
+    {
+      name: 'Home',
+      url: '/',
+    },
+    {
+      name: 'About',
+      url: '/about',
+    },
+    {
+      name: 'Team',
+      url: '/team',
+    },
+    {
+      name: 'Process',
+      url: '/process',
+    },
+    {
+      name: 'Pricing',
+      url: '/pricing',
+    },
+    {
+      name: 'Blog',
+      url: '/blog',
+    },
+    {
+      name: 'Contact',
+      url: '/contact',
+    },
+  ]
   const [isOpen, setIsOpen] = useState(false)
 
   const handleMobileMenu = () => {
@@ -26,7 +57,18 @@ export function Header() {
         </button>
       </div>
 
-      <Navigation className={`lg:flex ${isOpen ? 'block' : 'hidden'}`} />
+      <Navigation.Root className={`lg:flex ${isOpen ? 'block' : 'hidden'}`}>
+        <Navigation.List className="flex-wrap">
+          {links.map((link) => (
+            <Navigation.Item
+              className=""
+              key={link.name}
+              url={link.url}
+              name={link.name}
+            />
+          ))}
+        </Navigation.List>
+      </Navigation.Root>
     </header>
   )
 }
