@@ -38,6 +38,9 @@ export default {
         GreyShades_950: '#191919',
       },
     },
-    plugins: [],
+    plugins: [
+      // ...
+      require('tailwind-scrollbar'),
+    ],
   },
 }

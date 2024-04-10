@@ -4,7 +4,7 @@ import { Footer } from './components/layout/footer'
 
 function App() {
   return (
-    <div>
+    <div className="scrollbar  ">
       <Header />
       <Outlet />
       <Footer />

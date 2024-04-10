@@ -10,10 +10,10 @@ export function TeamPage() {
       <section className="lg:px-[162px] px-4  bg-absolute_white ">
         <div className="w-full flex flex-col  lg:p-[100px] p-[30px] ">
           <div className="flex flex-col gap-[10px] text-center">
-            <h2 className="text-5xl text-GreyShades_900 font-bold leading-[72px] ">
+            <h2 className="lg:text-5xl text-3xl text-GreyShades_900 font-bold lg:leading-[72px] ">
               {Team.title}
             </h2>
-            <span className="ext-GreyShades_800 text-lg leading-[27px] font-normal ">
+            <span className="text-GreyShades_800 text-lg leading-[27px] font-normal ">
               {Team.description}
             </span>
           </div>

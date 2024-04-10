@@ -57,7 +57,9 @@ export function Header() {
         </button>
       </div>
 
-      <Navigation.Root className={`lg:flex ${isOpen ? 'block' : 'hidden'}`}>
+      <Navigation.Root
+        className={`lg:flex ${isOpen ? 'block mt-10 mb-5' : 'hidden'}`}
+      >
         <Navigation.List className="flex-wrap">
           {links.map((link) => (
             <Navigation.Item
