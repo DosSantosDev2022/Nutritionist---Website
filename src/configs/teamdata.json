@@ -1,0 +1,139 @@
+{
+  "Team": {
+    "title" : "Conheça nossa equipe de especialistas",
+    "description": "Nossa equipe de Nutricionista é composta por profissionais altamente qualificados e apaixonados por ajudá-lo a atingir seus objetivos de saúde e bem-estar. Com uma ampla gama de conhecimentos em nutrição, coaching e suporte, nossa equipe se dedica a fornecer a orientação e o atendimento personalizado que você precisa. Conheça os especialistas por trás do nosso sucesso e descubra como eles podem causar um impacto positivo na sua jornada para uma saúde melhor."
+  },
+  
+
+  "team": {
+      "ManagementTitle" : "Time de gerenciamento",
+      "NutritionistsTitle" : " Nutricionistas e Dietistas",
+      "SupportTitle": "Suporte ao cliente",
+      "MarketingTitle": "Marketing e Comunicações",
+      "DevelopmentTitle": "Tecnologia e Desenvolvimento",
+      "Management": [
+        {
+          "id" : "001",
+          "name" : "Sarah Mitchell",
+          "carrer" : "Fundadora e CEO",
+          "image": "./src/assets/team/team01.webp"
+        },
+        {
+          "id" : "002",
+          "name" : "Emily Thompson",
+          "carrer" : "Diretor de operações",
+          "image": "./src/assets/team/team02.webp"
+        },
+        {
+          "id" : "003",
+          "name" : "John Davis",
+          "carrer" : "Diretor financeiro",
+          "image": "./src/assets/team/team03.webp"
+        },
+        {
+          "id" : "004",
+          "name" : "Rachel Adams",
+          "carrer" : "Diretora de marketing",
+          "image": "./src/assets/team/team04.webp"
+        }
+      ],
+      "Nutritionists": [
+        {
+          "id" : "004",
+          "name" : "Ana Silva",
+          "carrer" : "Nutricionista",
+          "image": "./src/assets/team/nutri01.webp"
+        },
+        {
+          "id" : "005",
+          "name" : "Marta Oliveira",
+          "carrer" : "Educação Alimentar",
+          "image": "./src/assets/team/nutri02.webp"
+        },
+        {
+          "id" : "006",
+          "name" : "Sofia Mendes",
+          "carrer" : "Nutricionista Clínico",
+          "image": "./src/assets/team/nutri03.webp"
+        },
+        {
+          "id" : "007",
+          "name" : "André Costa",
+          "carrer" : "Nutricionista Esportivo",
+          "image": "./src/assets/team/nutri04.webp"
+        }
+      ],
+      "Marketing": [
+        {
+          "id" : "008",
+          "name" : "David Mello",
+          "carrer" : "Diretor de marketing",
+          "image": "./src/assets/team/mark01.webp"
+        },
+        {
+          "id" : "009",
+          "name" : "Daniel Ferreira",
+          "carrer" : "Analista de marketing",
+          "image": "./src/assets/team/mark02.webp"
+        },
+        {
+          "id" : "010",
+          "name" : "Bruna Remmis",
+          "carrer" : "Marketing digital",
+          "image": "./src/assets/team/mark03.webp"
+        }
+      ],
+      "Suport" : [
+        {
+          "id" : "011",
+          "name" : "Rodrigo Mendes",
+          "carrer" : "Analista de suporte",
+          "image": "./src/assets/team/sup01.webp"
+        },
+        {
+          "id" : "012",
+          "name" : "Larissa Sthephani",
+          "carrer" : "Telemarketing",
+          "image": "./src/assets/team/sup01.webp"
+        },
+        {
+          "id" : "013",
+          "name" : "Douglas Santos",
+          "carrer" : "Assistente de suporte",
+          "image": "./src/assets/team/sup01.webp"
+        },
+        {
+          "id" : "014",
+          "name" : "Aline Mendes",
+          "carrer" : "Analista de suporte",
+          "image": "./src/assets/team/sup01.webp"
+        }
+      ],
+      "Tech" : [
+        {
+          "id" : "015",
+          "name" : "João Avezedo",
+          "carrer" : "Desenvolvedor Junior",
+          "image": "./src/assets/team/sup01.webp"
+        },
+        {
+          "id" : "016",
+          "name" : "Gustavo Lemes",
+          "carrer" : "Desenvolvedor Senior",
+          "image": "./src/assets/team/sup01.webp"
+        },
+        {
+          "id" : "017",
+          "name" : "Pedro Henrique",
+          "carrer" : "Desenvolvedor Pleno",
+          "image": "./src/assets/team/sup01.webp"
+        }
+      ]
+
+  },
+
+  "action": {
+    "title" : "Junte-se a nossa equipe",
+    "description" : "Estamos sempre em busca de pessoas talentosas que estejam entusiasmadas em fazer a diferença. Explore nossas oportunidades de carreira e junte-se a nós em nossa missão de ajudar as pessoas a alcançar seus objetivos de saúde e bem-estar."
+  }
+}
