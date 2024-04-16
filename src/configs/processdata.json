@@ -1,6 +1,75 @@
 {
     "process" : {
         "title" : "Sua jornada para a saúde e bem-estar",
-        "description": "Na Nutritionist, acreditamos em fornecer uma abordagem personalizada e abrangente para ajudá-lo a alcançar seus objetivos de saúde e bem-estar. Nosso processo Como funciona é projetado para guiá-lo em cada etapa de sua jornada, garantindo que você receba o suporte, o conhecimento e as ferramentas de que precisa para ter sucesso. Aqui está um detalhamento do nosso processo"
+        "description": "Na Nutritionist, acreditamos em fornecer uma abordagem personalizada e abrangente para ajudá-lo a alcançar seus objetivos de saúde e bem-estar. Nosso processo Como funciona é projetado para guiá-lo em cada etapa de sua jornada, garantindo que você receba o suporte, o conhecimento e as ferramentas de que precisa para ter sucesso. Aqui está um detalhamento do nosso processo",
+        "subtitle": "Como funciona ?",
+        "subDescription": "Fornecemos um guia passo a passo sobre como começar sua jornada em direção a uma melhor saúde e nutrição. Estamos aqui para simplificar o processo e facilitar a navegação em nossa plataforma e o acesso aos recursos necessários para atingir seus objetivos. Veja como funciona"
+    },
+    "cards" : [
+        {
+            "number": "01",
+            "title": "Consulta Inicial",
+            "description": "Começamos por agendar uma consulta inicial, seja pessoalmente ou através de uma conveniente reunião online. Durante esta sessão, discutiremos seu histórico de saúde, estilo de vida, objetivos e quaisquer necessidades dietéticas específicas.",
+            "icon": "src/assets/process/flag_01.webp"
+        },
+        {
+            "number": "02",
+            "title": "Avaliando suas necessidades",
+            "description": "Nossa equipe de nutricionistas e nutricionistas experientes realizará uma avaliação completa de suas necessidades nutricionais e criará um plano personalizado, adaptado às suas necessidades específicas.",
+            "icon": "src/assets/process/flag_02.webp"
+        },
+        {
+            "number": "03",
+            "title": "Plano de Nutrição Personalizado",
+            "description": "Desenvolveremos um plano nutricional personalizado, considerando suas preferências alimentares, estilo de vida e metas de saúde. Ele incluirá orientações claras sobre alimentos, porções e horários das refeições.",
+            "icon": "src/assets/process/flag_03.webp"
+        },
+        {
+            "number": "04",
+            "title": "Planejamento de refeições e receitas",
+            "description": "Para facilitar sua viagem, ofereceremos uma variedade de opções de refeições deliciosas e nutritivas, além de receitas que se alinham ao seu plano nutricional personalizado.",
+            "icon": "src/assets/process/flag_04.webp"
+        },
+        {
+            "number": "05",
+            "title": "Suporte contínuo",
+            "description": "Nossa equipe de especialistas em nutrição estará ao seu lado, oferecendo suporte contínuo, orientação e motivação ao longo de sua jornada. Acreditamos no poder do incentivo para ajudá-lo a alcançar o sucesso a longo prazo.",
+            "icon": "src/assets/process/flag_05.webp"
+        },
+        {
+            "number": "06",
+            "title": "Acompanhamento do progresso",
+            "description": "Incentivamos o acompanhamento do seu progresso através de nosso aplicativo móvel ou ferramentas online simples. Você pode registrar refeições, peso e atividade física, obtendo uma visão clara do seu avanço e ajustando conforme necessário.",
+            "icon": "src/assets/process/flag_06.webp"
+        },
+        {
+            "number": "07",
+            "title": "Check-ins regulares",
+            "description": "Agendaremos check-ins regulares para avaliar seu progresso, resolver preocupações e ajustar seu plano nutricional conforme necessário, visando garantir progresso consistente em direção aos seus objetivos.",
+            "icon": "src/assets/process/flag_07.webp"
+        },
+        {
+            "number": "08",
+            "title": "Educação e Recursos",
+            "description": "Ao longo do caminho, forneceremos recursos educacionais, como artigos, guias e vídeos, para aprimorar sua compreensão sobre nutrição e capacitá-lo a fazer escolhas informadas para um estilo de vida mais saudável.",
+            "icon": "src/assets/process/flag_08.webp"
+        },
+        {
+            "number": "09",
+            "title": "Ajustes e ajustes finos",
+            "description": "À medida que sua jornada avança e seus objetivos evoluem, ajustaremos e faremos ajustes em seu plano nutricional para garantir que ele continue alinhado às suas necessidades em constante mudança.",
+            "icon": "src/assets/process/flag_09.webp"
+        },
+        {
+            "number": "10",
+            "title": "Hábitos de estilo de vida sustentáveis",
+            "description": "Nosso objetivo é ajudá-lo a desenvolver hábitos de vida sustentáveis para promover sua saúde e bem-estar a longo prazo. Vamos capacitá-lo com o conhecimento e as habilidades necessárias para manter seu progresso.",
+            "icon": "src/assets/process/flag_10.webp"
+        }
+    ],
+
+    "action": {
+        "title" : "Você está pronto para embarcar em uma jornada transformadora em direção a uma melhor saúde e bem-estar?",
+        "description": "Junte-se a nós no Nutricionista e deixe-nos guiá-lo no caminho para uma pessoa mais saudável e feliz."
     }
 }
