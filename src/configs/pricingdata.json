@@ -1,0 +1,143 @@
+{
+    "pricing" : {
+      "title" : "Nossos preços",
+      "description": "Na Nutritionist, oferecemos opções de preços flexíveis para acomodar suas necessidades e orçamento exclusivos. Nosso objetivo é fornecer a você um treinamento nutricional personalizado excepcional, acessível e adaptado às suas necessidades. Escolha um dos nossos três planos abaixo e dê o primeiro passo para um estilo de vida mais saudável"
+      
+  },
+
+  "cards": [
+    {
+      "title" : "Plano básico",
+      "subtitle" : "Até 50% de desconto no plano anual",
+      "monthPrice" : "R$: 49,90",
+      "AnnualPricing": "R$: 24,90",
+       "list" : [
+        "Plano nutricional personalizado e adaptado aos seus objetivos e preferências alimentares.",
+        "Acesso ao nosso aplicativo móvel para rastreamento conveniente de refeições e monitoramento do progresso.",
+        "Suporte por e-mail para responder às suas dúvidas e preocupações.",
+        "Check-ins regulares com um nutricionista dedicado para avaliar seu progresso e fornecer orientação."
+       ]
+    },
+    {
+      "title" : "Plano Premium",
+      "subtitle" : "Até 50% de desconto no plano anual",
+      "monthPrice" : "R$: 79,90",
+      "AnnualPricing": "R$: 39,90",
+      "list" : [
+        "Todas as funcionalidades incluídas no Plano Básico.",
+        "Consultas individuais por vídeo com seu nutricionista dedicado para orientação e suporte mais personalizados.",
+        "Recomendações de receitas e assistência no planejamento de refeições.",
+        "Suporte prioritário por e-mail para respostas mais rápidas às suas dúvidas.",
+        "Recursos e guias educacionais para aprofundar sua compreensão sobre nutrição e hábitos saudáveis."
+       ]
+    },
+    {
+      "title" : "Plano ultimate",
+      "subtitle" : "Até 50% de desconto no plano anual",
+      "monthPrice" : "R$: 99,90",
+      "AnnualPricing": "R$: 49,90",
+      "list" : [
+        "Todos os recursos incluídos no Plano Plus.",
+        "Acesso ilimitado a consultas por vídeo com seu nutricionista dedicado para suporte e responsabilidade contínuos.",
+        "Ferramentas avançadas de monitoramento de progresso para monitorar seu peso, medidas corporais e metas de condicionamento físico.",
+        "Planos de refeições personalizados e sugestões de receitas com base em suas preferências e necessidades nutricionais.",
+        "Suporte prioritário por e-mail e telefone para assistência imediata.",
+        "O Plano Premium foi desenvolvido para indivíduos comprometidos em alcançar resultados significativos e que exigem o mais alto nível de suporte e personalização."
+       ]
+    }
+  ],
+
+  "table": [
+    {
+      "caracteristica": "Plano de Nutrição Personalizado",
+      "planoGratis":  "src/assets/pricing/check.webp",
+      "planoPremium": "src/assets/pricing/check.webp",
+      "planoUltimate": "src/assets/pricing/check.webp"
+    },
+    {
+      "caracteristica": "Acesso a aplicativos móveis",
+      "planoGratis": "src/assets/pricing/check.webp",
+      "planoPremium": "src/assets/pricing/check.webp",
+      "planoUltimate": "src/assets/pricing/check.webp"
+    },
+    {
+      "caracteristica": "Suporte por e-mail",
+      "planoGratis": "src/assets/pricing/check.webp",
+      "planoPremium": "src/assets/pricing/check.webp",
+      "planoUltimate": "src/assets/pricing/check.webp"
+    },
+    {
+      "caracteristica": "Consultas individuais por vídeo",
+      "planoGratis": "src/assets/pricing/noCheck.webp",
+      "planoPremium": "src/assets/pricing/check.webp",
+      "planoUltimate": "src/assets/pricing/check.webp"
+    },
+    {
+      "caracteristica": "Recomendações de receitas e planejamento de refeições",
+      "planoGratis": "src/assets/pricing/noCheck.webp",
+      "planoPremium": "src/assets/pricing/check.webp",
+      "planoUltimate": "src/assets/pricing/check.webp"
+    },
+    {
+      "caracteristica": "Suporte prioritário",
+      "planoGratis": "src/assets/pricing/noCheck.webp",
+      "planoPremium": "src/assets/pricing/check.webp",
+      "planoUltimate": "src/assets/pricing/check.webp"
+    },
+    {
+      "caracteristica": "Recursos e guias educacionais",
+      "planoGratis": "src/assets/pricing/noCheck.webp",
+      "planoPremium": "src/assets/pricing/check.webp",
+      "planoUltimate": "src/assets/pricing/check.webp"
+    },
+    {
+      "caracteristica": "Ferramentas avançadas de monitoramento de progresso",
+      "planoGratis": "src/assets/pricing/noCheck.webp",
+      "planoPremium": "src/assets/pricing/noCheck.webp",
+      "planoUltimate": "src/assets/pricing/check.webp"
+    },
+    {
+      "caracteristica": "Planos de refeições personalizados e sugestões de receitas",
+      "planoGratis": "src/assets/pricing/noCheck.webp",
+      "planoPremium": "src/assets/pricing/noCheck.webp",
+      "planoUltimate": "src/assets/pricing/check.webp"
+    },
+    {
+      "caracteristica": "Suporte por telefone",
+      "planoGratis": "src/assets/pricing/noCheck.webp",
+      "planoPremium": "src/assets/pricing/noCheck.webp",
+      "planoUltimate": "src/assets/pricing/check.webp"
+    }
+  ],
+  "FAQ": {
+    "title": "FAQ",
+    "description": "Respondemos às perguntas mais frequentes e fornecemos respostas abrangentes para ajudá-lo a navegar em sua jornada de nutrição e bem-estar.",
+    "questions": [
+      {
+        "question": "Quais são os planos disponíveis?",
+        "answer": "Atualmente, oferecemos três planos: Plano Básico, Plano Premium e Plano Ultimate."
+      },
+      {
+        "question": "Como faço para escolher o plano certo para mim?",
+        "answer": "Você pode escolher o plano que melhor se adapte às suas necessidades e objetivos nutricionais. Se tiver dúvidas, nossa equipe está disponível para ajudá-lo a tomar a melhor decisão."
+      },
+      {
+        "question": "Posso atualizar meu plano a qualquer momento?",
+        "answer": "Sim, você pode atualizar seu plano a qualquer momento. Basta entrar em contato conosco e nossa equipe terá prazer em ajudá-lo com o processo de atualização."
+      },
+      {
+        "question": "Como faço para cancelar meu plano?",
+        "answer": "Se você deseja cancelar seu plano, entre em contato conosco e nossa equipe fornecerá as informações necessárias sobre o processo de cancelamento."
+      },
+      {
+        "question": "Os planos incluem consultas com um nutricionista?",
+        "answer": "Sim, todos os nossos planos incluem consultas com um nutricionista dedicado. A frequência e o formato das consultas podem variar de acordo com o plano escolhido."
+      }
+    ]
+  },
+  "Ask": {
+    "title" : "Faça sua pergunta",
+    "description": "Sinta-se à vontade para fazer perguntas a qualquer momento"
+  }
+
+}
