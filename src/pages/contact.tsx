@@ -6,7 +6,7 @@ import { Process } from '../components/icons/processLogo'
 import { Input } from '../components/input'
 import { Label } from '../components/label'
 import TextArea from '../components/textArea'
-import { contact } from '../configs/contactdata.json'
+import { contact, action } from '../configs/contactdata.json'
 import { Button } from '../components/button'
 
 export function ContactPage() {
@@ -53,8 +53,8 @@ export function ContactPage() {
             ))}
           </div>
 
-          <div className="lg:p-[80px] p-[30px] flex flex-col lg:flex-row gap-[50px] bg-GreenShades_200  ">
-            <form className="w-full flex flex-col gap-[30px] " action="">
+          <div className="lg:p-[80px] rounded-md p-[30px] flex flex-col lg:flex-row gap-[50px] bg-GreenShades_200  ">
+            <form className="flex flex-col gap-[30px] ">
               <div className="flex flex-col lg:flex-row items-center gap-[30px]">
                 <div className="flex flex-col w-full">
                   <Label>Nome</Label>
@@ -88,11 +88,11 @@ export function ContactPage() {
               </div>
               <Button variant="action3">Enviar Mensagem</Button>
             </form>
-            <div className="w-full">
+            <div className="w-full ">
               <img
                 src="src/assets/contact/map.webp"
-                className="w-[880px] "
-                alt=""
+                className="w-full rounded-md "
+                alt="mapa do endereço"
               />
               <div className="flex gap-3 items-center justify-end mt-[30px] ">
                 <span className="text-xl leading-5  font-bold text-DarkGreen_700">
@@ -109,6 +109,20 @@ export function ContactPage() {
                 </a>
               </div>
             </div>
+          </div>
+
+          <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-20 mt-[100px] rounded-md p-4 lg:p-20 bg-GreenShades_200 border border-GreenShades_300">
+            <div className="flex flex-col gap-[14px] ">
+              <h4 className="text-GreyShades_900 font-bold  text-xl ">
+                {action.title}
+              </h4>
+              <p className="text-lg font-medium leading-[27px] text-GreyShades_800 ">
+                {action.description}
+              </p>
+            </div>
+            <Button className="w-full lg:w-[154px] " variant="primary">
+              Agendar
+            </Button>
           </div>
         </div>
       </section>
