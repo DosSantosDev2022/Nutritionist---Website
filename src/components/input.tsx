@@ -7,7 +7,7 @@ export interface InputRootProps {
 
 function InputRoot({ children }: InputRootProps) {
   return (
-    <div className="flex items-center gap-3 h-10 w-full rounded focus-within:right-2 ring-violet-700 border border-zinc-700 bg-zinc-800 px-3 py-4 ">
+    <div className="flex items-center gap-3 h-10 w-full rounded focus-within:right-2 ring-violet-700 border border-GreenShades_300 bg-GreenShades_500 px-3 py-4 ">
       {children}
     </div>
   )
@@ -29,7 +29,7 @@ const TextInput = React.forwardRef<HTMLInputElement, InputProps>(
       <input
         type={type}
         className={twMerge(
-          'bg-transparent flex-1 text-zinc-600 placeholder:text-zinc-400 outline-none ',
+          'bg-transparent flex-1 text-GreyShades_500 placeholder:text-zinc-400 outline-none ',
           className,
         )}
         ref={ref}
