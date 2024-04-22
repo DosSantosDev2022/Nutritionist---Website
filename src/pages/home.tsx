@@ -34,9 +34,11 @@ export function HomePage() {
           </p>
 
           <div className="flex gap-5 mt-[50px] mb-8 ">
-            <Button className="w-[187px] font-bold ">Comece hoje</Button>
-            <Button className="w-[187px] font-bold " variant="outline">
-              Agendar
+            <Button asChild className="w-[187px] font-bold text-center ">
+              <a href="/pricing">Comece hoje</a>
+            </Button>
+            <Button asChild className="w-[187px] font-bold text-center " variant="outline">
+              <a href="/contact">Agendar</a>
             </Button>
           </div>
 
@@ -53,11 +55,11 @@ export function HomePage() {
 
       <section className="lg:px-[162px] px-4 mt-[150px] bg-absolute_white ">
         <div className="w-full flex flex-col gap-20">
-          <div className="flex flex-col gap-[10px] text-center">
+          <div className="flex flex-col gap-[10px] items-center text-center">
             <h2 className="text-5xl text-GreyShades_900 font-bold leading-[72px] ">
               {Featuresdata.title}{' '}
             </h2>
-            <span className="ext-GreyShades_800 text-lg leading-[27px] font-normal ">
+            <span className="ext-GreyShades_800 text-lg leading-[27px] font-normal lg:w-[575px]  ">
               {Featuresdata.subtitle}{' '}
             </span>
           </div>
@@ -69,11 +71,10 @@ export function HomePage() {
                 key={card.id}
               >
                 <div className="flex items-center gap-2">
-                  <div className="w-[68px] flex items-center justify-center h-[68px] p-[14px] bg-GreenShades_700  rounded-lg   ">
-                    <img className="" src={card.icon} alt="" />
-                  </div>
+                    <img className="w-[48px] " src={card.icon} alt={card.title} />
+                  
 
-                  <h3 className="text-DarkGreen_700 font-bold text-2xl leading-[36px] ">
+                  <h3 className="text-DarkGreen_700 font-bold text-2xl leading-[27px] ">
                     {card.title}
                   </h3>
                 </div>
@@ -136,11 +137,11 @@ export function HomePage() {
         </div>
 
         <div className="w-full flex flex-col gap-20 mt-[150px]">
-          <div className="flex flex-col gap-[10px] text-center">
+          <div className="flex flex-col gap-[10px] items-center">
             <h2 className="text-5xl text-GreyShades_900 font-bold leading-[72px] ">
               {Testimonialsdata.title}{' '}
             </h2>
-            <span className="text-GreyShades_800 text-md leading-[27px] font-normal ">
+            <span className="text-GreyShades_800 text-md leading-[27px] font-normal lg:w-[475px] ">
               {Testimonialsdata.description}{' '}
             </span>
           </div>
@@ -174,11 +175,11 @@ export function HomePage() {
         </div>
 
         <div className="w-full flex flex-col gap-20 mt-[150px]">
-          <div className="flex flex-col gap-[10px] text-center">
+          <div className="flex flex-col gap-[10px] items-center text-center">
             <h2 className="text-5xl text-GreyShades_900 font-bold leading-[72px] ">
               {Pricingdata.title}{' '}
             </h2>
-            <span className="text-GreyShades_800 text-md leading-[27px] font-normal ">
+            <span className="text-GreyShades_800 text-md leading-[27px] font-normal lg:w-[575px] ">
               {Pricingdata.description}{' '}
             </span>
           </div>

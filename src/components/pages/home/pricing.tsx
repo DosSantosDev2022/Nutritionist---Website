@@ -1,16 +1,22 @@
 import { Button } from '../../button'
 import { Pricing } from '../../../configs/homedata.json'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 
 export function PricingComponent() {
   const [activeTab, setActiveTab] = useState('monthly')
+  const pricingRef = useRef<HTMLDivElement>(null)
 
   const handleTabChange = (tab: string) => {
     setActiveTab(tab)
+    if(pricingRef.current) {
+      pricingRef.current.scrollIntoView({behavior: 'smooth', block: 'start'})
+    }
   }
+
+   
   const cards = Pricing.cards
   return (
-    <div className="flex flex-col items-center gap-[50px] mb-20 ">
+    <div className="flex flex-col items-center gap-[50px] mb-20 " >
       <div className="flex flex-col items-center w-full justify-center gap-3">
         <div className="flex items-center w-full justify-center">
           <Button
@@ -33,7 +39,7 @@ export function PricingComponent() {
         </span>
       </div>
 
-      <div className="grid lg:grid-cols-3 grid-cols-1  gap-[30px] ">
+      <div className="grid lg:grid-cols-3 grid-cols-1  gap-[30px] " ref={pricingRef}>
         {cards.map((card) => (
           <div
             key={card.title}

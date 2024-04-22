@@ -1,8 +1,11 @@
 import * as React from 'react'
 import { twMerge } from 'tailwind-merge'
+import { Slot } from '@radix-ui/react-slot';
+
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  asChild?: React.ReactNode
   variant?:
     | 'primary'
     | 'outline'
@@ -14,6 +17,7 @@ export interface ButtonProps
 
 export function Button({
   className,
+  asChild,
   variant = 'primary',
   ...props
 }: ButtonProps) {
@@ -32,9 +36,11 @@ export function Button({
     className,
   )
 
+  const Comp = asChild ? Slot : 'button';
+
   return (
-    <button className={_className} {...props}>
+    <Comp className={_className} {...props}>
       {props.children}
-    </button>
+    </Comp>
   )
 }
