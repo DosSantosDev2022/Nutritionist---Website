@@ -94,8 +94,8 @@ export function AboutPage() {
                 {action.description}
               </p>
             </div>
-            <Button className="w-full lg:w-[154px] " variant="primary">
-              Agendar
+            <Button asChild className="w-full lg:w-[154px] text-center " variant="primary">
+              <a href="/contact">Agendar</a>
             </Button>
           </div>
         </div>
