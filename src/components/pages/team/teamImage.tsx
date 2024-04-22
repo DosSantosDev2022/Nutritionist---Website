@@ -5,8 +5,8 @@ interface ImageTeamProps {
 
 export function ImageTeam({ imageURL, alt }: ImageTeamProps) {
   return (
-    <div className="w-full bg-GreenShades_700 rounded-md border">
-      <img className=" " src={imageURL} alt={alt} />
+    <div className="w-full  bg-GreenShades_700 rounded-md border">
+      <img  src={imageURL} alt={alt} />
     </div>
   )
 }

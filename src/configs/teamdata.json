@@ -86,27 +86,27 @@
       "Suport" : [
         {
           "id" : "011",
-          "name" : "Rodrigo Mendes",
+          "name" : "Larissa Sthephani",
           "carrer" : "Analista de suporte",
           "image": "./src/assets/team/sup01.webp"
         },
         {
           "id" : "012",
-          "name" : "Larissa Sthephani",
+          "name" : "Rodrigo Mendes",
           "carrer" : "Telemarketing",
-          "image": "./src/assets/team/sup01.webp"
+          "image": "./src/assets/team/sup02.webp"
         },
         {
           "id" : "013",
-          "name" : "Douglas Santos",
+          "name" : "Larissa Padovan",
           "carrer" : "Assistente de suporte",
-          "image": "./src/assets/team/sup01.webp"
+          "image": "./src/assets/team/sup03.webp"
         },
         {
           "id" : "014",
-          "name" : "Aline Mendes",
+          "name" : "Aline Lemos",
           "carrer" : "Analista de suporte",
-          "image": "./src/assets/team/sup01.webp"
+          "image": "./src/assets/team/sup04.webp"
         }
       ],
       "Tech" : [
