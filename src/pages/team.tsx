@@ -68,7 +68,11 @@ export function TeamPage() {
         <div className="mt-[50px] flex gap-[30px] flex-col lg:flex-row ">
           {team.Tech.map((card) => (
             <div key={card.id}>
-              <ImageTeam imageURL={card.image} alt={card.name} />
+              <ImageTeam
+                className={` w-[350px] h-[550px] `}
+                imageURL={card.image}
+                alt={card.name}
+              />
               <InfoTeam carrer={card.carrer} name={card.name} />
             </div>
           ))}

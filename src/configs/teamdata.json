@@ -84,12 +84,7 @@
         }
       ],
       "Suport" : [
-        {
-          "id" : "011",
-          "name" : "Larissa Sthephani",
-          "carrer" : "Analista de suporte",
-          "image": "./src/assets/team/sup01.webp"
-        },
+        
         {
           "id" : "012",
           "name" : "Rodrigo Mendes",
@@ -100,13 +95,13 @@
           "id" : "013",
           "name" : "Larissa Padovan",
           "carrer" : "Assistente de suporte",
-          "image": "./src/assets/team/sup03.webp"
+          "image": "./src/assets/team/sup01.webp"
         },
         {
           "id" : "014",
           "name" : "Aline Lemos",
           "carrer" : "Analista de suporte",
-          "image": "./src/assets/team/sup04.webp"
+          "image": "./src/assets/team/sup03.webp"
         }
       ],
       "Tech" : [
@@ -114,19 +109,19 @@
           "id" : "015",
           "name" : "João Avezedo",
           "carrer" : "Desenvolvedor Junior",
-          "image": "./src/assets/team/sup01.webp"
+          "image": "./src/assets/team/tech01.webp"
         },
         {
           "id" : "016",
           "name" : "Gustavo Lemes",
           "carrer" : "Desenvolvedor Senior",
-          "image": "./src/assets/team/sup01.webp"
+          "image": "./src/assets/team/tech02.webp"
         },
         {
           "id" : "017",
           "name" : "Pedro Henrique",
           "carrer" : "Desenvolvedor Pleno",
-          "image": "./src/assets/team/sup01.webp"
+          "image": "./src/assets/team/tech04.webp"
         }
       ]
 
