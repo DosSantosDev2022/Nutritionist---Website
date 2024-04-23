@@ -77,10 +77,10 @@
           "image": "./src/assets/team/mark02.webp"
         },
         {
-          "id" : "010",
-          "name" : "Bruna Remmis",
-          "carrer" : "Marketing digital",
-          "image": "./src/assets/team/mark03.webp"
+          "id" : "009",
+          "name" : "Daniel Ferreira",
+          "carrer" : "Analista de marketing",
+          "image": "./src/assets/team/mark04.webp"
         }
       ],
       "Suport" : [
@@ -121,7 +121,7 @@
           "id" : "017",
           "name" : "Pedro Henrique",
           "carrer" : "Desenvolvedor Pleno",
-          "image": "./src/assets/team/tech04.webp"
+          "image": "./src/assets/team/tech03.webp"
         }
       ]
 
