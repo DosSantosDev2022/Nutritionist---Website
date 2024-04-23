@@ -2,7 +2,7 @@ import { ReactNode } from 'react'
 import { twMerge } from 'tailwind-merge'
 
 interface NavigationRootProps {
-  className: string
+  className?: string
   children: ReactNode
 }
 
