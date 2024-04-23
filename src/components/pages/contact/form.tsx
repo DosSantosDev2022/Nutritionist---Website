@@ -10,7 +10,7 @@ import { toast } from 'react-toastify'
 const regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/
 
 export const FormSchema = z.object({
-  nome: z.string().nonempty('O nome é obrigatório'),
+  nome: z.string().min(1, 'O nome é obrigatório'),
   email: z
     .string()
     .min(1, 'O email deve ser váilido')
@@ -67,7 +67,7 @@ export function Form() {
               {...register('nome')}
             />
           </Input.Root>
-          <span className="text-md font-normal text-red-500">
+          <span className="text-md font-normal mt-1 text-red-500">
             {errors.nome?.message}
           </span>
         </div>
@@ -80,7 +80,7 @@ export function Form() {
               {...register('email')}
             />
           </Input.Root>
-          <span className="text-md font-normal text-red-500">
+          <span className="text-md font-normal mt-1 text-red-500">
             {errors.email?.message}
           </span>
         </div>
@@ -95,18 +95,23 @@ export function Form() {
             {...register('tel')}
           />
         </Input.Root>
-        <span className="text-md font-normal text-red-500">
+        <span className="text-md font-normal mt-1 text-red-500">
           {errors.tel?.message}
         </span>
       </div>
       <div className="flex flex-col">
         <Label>Mensagem</Label>
         <TextArea placeholder="Deixe sua mensagem" {...register('mensagem')} />
-        <span className="text-md font-normal text-red-500">
+        <span className="text-md font-normal mt-1 text-red-500">
           {errors.mensagem?.message}
         </span>
       </div>
-      <Button variant="action3">Enviar Mensagem</Button>
+      <Button
+        variant="action3"
+        className="text-DarkGreen_500 font-bold text-lg"
+      >
+        Enviar Mensagem
+      </Button>
     </form>
   )
 }

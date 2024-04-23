@@ -7,7 +7,7 @@ export interface InputRootProps {
 
 function InputRoot({ children }: InputRootProps) {
   return (
-    <div className="flex items-center gap-3 h-10 w-full rounded focus-within:ring-2 focus:ring-GreenShades_700 border border-GreenShades_500 bg-GreenShades_300 px-3 py-4 ">
+    <div className="flex items-center gap-3 h-10 w-full rounded focus-within:ring-2 focus-within:ring-GreenShades_700 border border-GreenShades_500 bg-GreenShades_300 px-3 py-4 ">
       {children}
     </div>
   )

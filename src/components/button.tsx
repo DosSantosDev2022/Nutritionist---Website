@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { twMerge } from 'tailwind-merge'
-import { Slot } from '@radix-ui/react-slot';
-
+import { Slot } from '@radix-ui/react-slot'
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -36,7 +35,7 @@ export function Button({
     className,
   )
 
-  const Comp = asChild ? Slot : 'button';
+  const Comp = asChild ? Slot : 'button'
 
   return (
     <Comp className={_className} {...props}>
