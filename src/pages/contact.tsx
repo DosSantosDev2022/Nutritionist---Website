@@ -3,11 +3,9 @@ import { EmailIcon } from '../components/icons/email'
 import { LocalIcon } from '../components/icons/map'
 import { PhoneIcon } from '../components/icons/phone'
 import { Process } from '../components/icons/processLogo'
-import { Input } from '../components/input'
-import { Label } from '../components/label'
-import TextArea from '../components/textArea'
 import { contact, action } from '../configs/contactdata.json'
 import { Button } from '../components/button'
+import { Form } from '../components/pages/contact/form'
 
 export function ContactPage() {
   const contacts = [
@@ -39,11 +37,11 @@ export function ContactPage() {
             </span>
           </div>
 
-          <div className="w-full lg:h-[240px] bg-DarkGreen_700 flex lg:flex-row flex-col p-10 gap-5 ">
+          <div className="w-full lg:h-[240px] bg-DarkGreen_700 flex lg:flex-row flex-col p-10 rounded gap-5 ">
             {contacts.map((item, index) => (
               <div
                 key={index}
-                className="p-[30px] bg-DarkGreen_600 w-full lg:w-[325px] flex flex-col items-center justify-center rounded-md gap-2 "
+                className="p-2 bg-DarkGreen_600 w-full flex flex-col items-center justify-center rounded-md gap-2 "
               >
                 {item.icon}{' '}
                 <span className="text-absolute_white text-center">
@@ -54,57 +52,33 @@ export function ContactPage() {
           </div>
 
           <div className="lg:p-[80px] rounded-md p-[30px] flex flex-col lg:flex-row gap-[50px] bg-GreenShades_200  ">
-            <form className="flex flex-col gap-[30px] ">
-              <div className="flex flex-col lg:flex-row items-center gap-[30px]">
-                <div className="flex flex-col w-full">
-                  <Label>Nome</Label>
-                  <Input.Root>
-                    <Input.Input
-                      type="text"
-                      placeholder="Digite seu nome completo"
-                    />
-                  </Input.Root>
-                </div>
-                <div className="flex flex-col w-full">
-                  <Label>E-mail</Label>
-                  <Input.Root>
-                    <Input.Input
-                      type="email"
-                      placeholder="Digite seu melhor email"
-                    />
-                  </Input.Root>
-                </div>
-              </div>
-
-              <div className="flex flex-col">
-                <Label>Telefone</Label>
-                <Input.Root>
-                  <Input.Input type="tel" placeholder="(xx)xxxxx-xxxx" />
-                </Input.Root>
-              </div>
-              <div className="flex flex-col">
-                <Label>Mensagem</Label>
-                <TextArea placeholder="Deixe sua mensagem" />
-              </div>
-              <Button variant="action3">Enviar Mensagem</Button>
-            </form>
+            <Form />
             <div className="w-full ">
               <img
                 src="src/assets/contact/map.webp"
                 className="w-full rounded-md "
                 alt="mapa do endereço"
               />
-              <div className="flex gap-3 items-center justify-end mt-[30px] ">
-                <span className="text-xl leading-5  font-bold text-DarkGreen_700">
-                  Fique conectado !
+              <div className="flex gap-3 items-center justify-center mt-[30px] ">
+                <span className="text-xl leading-5  font-normal text-DarkGreen_700">
+                  Fique conectado
                 </span>
-                <a className="bg-GreenShades_700 p-2 rounded-md" href="">
+                <a
+                  className="bg-GreenShades_700 p-2 rounded-full hover:bg-GreenShades_600 duration-300 transition-all"
+                  href=""
+                >
                   <FaFacebook size={20} />
                 </a>
-                <a className="bg-GreenShades_700 p-2 rounded-md" href="">
+                <a
+                  className="bg-GreenShades_700 p-2 rounded-full hover:bg-GreenShades_600 duration-300 transition-all"
+                  href=""
+                >
                   <FaInstagramSquare size={20} />
                 </a>
-                <a className="bg-GreenShades_700 p-2 rounded-md" href="">
+                <a
+                  className="bg-GreenShades_700 p-2 rounded-full hover:bg-GreenShades_600 duration-300 transition-all"
+                  href=""
+                >
                   <FaLinkedin size={20} />
                 </a>
               </div>
