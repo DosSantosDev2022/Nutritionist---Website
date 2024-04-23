@@ -49,7 +49,9 @@ export function PricingPage() {
                 <p className="text-center font-medium text-base leading-[21px]  text-GreyShades_700">
                   {Ask.description}{' '}
                 </p>
-                <Button>Faça uma pergunta</Button>
+                <Button asChild>
+                  <a href="/contact">Faça uma pergunta</a>
+                </Button>
               </div>
             </div>
           </div>

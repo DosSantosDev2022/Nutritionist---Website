@@ -1,12 +1,16 @@
 import { Button } from '../../button'
 import { cards } from '../../../configs/pricingdata.json'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 
 export function PricingComponent() {
   const [activeTab, setActiveTab] = useState('monthly')
+  const pricingRef = useRef<HTMLDivElement>(null)
 
   const handleTabChange = (tab: string) => {
     setActiveTab(tab)
+    if (pricingRef.current) {
+      pricingRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
   }
 
   return (
@@ -37,7 +41,7 @@ export function PricingComponent() {
         {cards.map((card) => (
           <div
             key={card.title}
-            className="w-full flex flex-col h-auto   gap-10 p-[30px]  rounded-lg bg-GreenShades_200 "
+            className="w-full flex flex-col justify-between  gap-10 p-[30px]  rounded-lg bg-GreenShades_200 "
           >
             <div className="flex flex-col items-center justify-start ">
               <h4 className="text-[1.875rem] font-bold text-GreyShades_900 leading-[45px]  ">
@@ -46,18 +50,23 @@ export function PricingComponent() {
               <span className="text-md font-normal leading-[27px] text-GreyShades_700 ">
                 {card.subtitle}
               </span>
+
+              <div className="text-md font-normal mt-8  text-GreyShades_700 flex flex-col gap-2  rounded-md ">
+                {card.list?.map((item) => (
+                  <span
+                    className="px-6 py-5 text-sm border-t border-b  flex gap-6 "
+                    key={item}
+                  >
+                    {item}{' '}
+                  </span>
+                ))}
+              </div>
             </div>
-            <div className="text-md font-normal   text-GreyShades_700 flex flex-col gap-2  bg-GreenShades_300 rounded-md ">
-              {card.list?.map((item) => (
-                <span
-                  className="px-6 py-5 text-sm border-t border-b "
-                  key={item}
-                >
-                  {item}{' '}
-                </span>
-              ))}
-            </div>
-            <div className="flex flex-col gap-[33px] w-full mt-5  justify-between items-center ">
+
+            <div
+              className="flex flex-col gap-[33px] w-full mt-5  justify-between items-center "
+              ref={pricingRef}
+            >
               <span className="flex items-center gap-1 ">
                 {activeTab === 'monthly' ? (
                   <span className="font-bold text-3xl text-DarkGreen_500 ">
