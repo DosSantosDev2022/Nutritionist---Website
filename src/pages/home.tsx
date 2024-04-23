@@ -37,7 +37,11 @@ export function HomePage() {
             <Button asChild className="w-[187px] font-bold text-center ">
               <a href="/pricing">Comece hoje</a>
             </Button>
-            <Button asChild className="w-[187px] font-bold text-center " variant="outline">
+            <Button
+              asChild
+              className="w-[187px] font-bold text-center "
+              variant="outline"
+            >
               <a href="/contact">Agendar</a>
             </Button>
           </div>
@@ -71,8 +75,7 @@ export function HomePage() {
                 key={card.id}
               >
                 <div className="flex items-center gap-2">
-                    <img className="w-[48px] " src={card.icon} alt={card.title} />
-                  
+                  <img className="w-[48px] " src={card.icon} alt={card.title} />
 
                   <h3 className="text-DarkGreen_700 font-bold text-2xl leading-[27px] ">
                     {card.title}
