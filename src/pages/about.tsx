@@ -71,7 +71,7 @@ export function AboutPage() {
                 key={card.title}
               >
                 <div className="flex items-center gap-2 w-full">
-                  <div className="w-[68px] h-[68px] p-3 bg-GreenShades_700 rounded-md flex items-center justify-center ">
+                  <div className=" bg-GreenShades_700 rounded-md flex items-center justify-center ">
                     <img src={card.icon} alt={card.title} />
                   </div>
                   <h3 className="text-GreyShades_900 font-bold leading-9 text-xl w-full">
@@ -94,7 +94,11 @@ export function AboutPage() {
                 {action.description}
               </p>
             </div>
-            <Button asChild className="w-full lg:w-[154px] text-center " variant="primary">
+            <Button
+              asChild
+              className="w-full lg:w-[154px] text-center "
+              variant="primary"
+            >
               <a href="/contact">Agendar</a>
             </Button>
           </div>
