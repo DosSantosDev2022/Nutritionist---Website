@@ -1,3 +1,4 @@
+import { LuChevronRightCircle } from 'react-icons/lu'
 import { Button } from '../components/button'
 import { Process } from '../components/icons/processLogo'
 import { process, cards, action } from '../configs/processdata.json'
@@ -5,7 +6,7 @@ import { process, cards, action } from '../configs/processdata.json'
 export function ProcessPage() {
   return (
     <main>
-      <section className="lg:px-[162px] px-4 mt-[150px] bg-absolute_white ">
+      <div className="lg:px-[162px] px-4 mt-[150px] bg-absolute_white ">
         <div className="w-full flex flex-col gap-20">
           <div className="flex flex-col gap-[10px] text-center justify-center items-center">
             <Process />
@@ -35,9 +36,10 @@ export function ProcessPage() {
 
                   <div className="relative -top-24  flex flex-col items-start self-stretch gap-3 p-[30px] lg:h-[234px] h-[274px] bg-GreenShades_300 rounded-md ">
                     <div className="flex items-center justify-start gap-[14px]  w-full ">
-                      <div className="bg-GreenShades_700 lg:p-4 p-[14px] rounded-lg lg:w-[66px] w-[54px] h-[54px] flex items-center justify-center ">
-                        <img src={card.icon} alt={card.title} className="w-7" />
-                      </div>
+                      <LuChevronRightCircle
+                        size={38}
+                        className="bg-GreenShades_700 p-1 text-DarkGreen_400 rounded-full"
+                      />
 
                       <h4 className="lg:text-2xl text-md font-semibold  leading-[21px]  text-GreyShades_900">
                         {card.title}
@@ -61,12 +63,16 @@ export function ProcessPage() {
                 {action.description}
               </p>
             </div>
-            <Button className=" w-[250px]  " variant="primary">
-              Faça parte
+            <Button
+              asChild
+              className=" w-[250px] text-center  "
+              variant="primary"
+            >
+              <a href="/pricing">Faça parte</a>
             </Button>
           </div>
         </div>
-      </section>
+      </div>
     </main>
   )
 }
