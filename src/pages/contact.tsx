@@ -6,6 +6,7 @@ import { Process } from '../components/icons/processLogo'
 import { contact, action } from '../configs/contactdata.json'
 import { Button } from '../components/button'
 import { Form } from '../components/pages/contact/form'
+import { AnimationDiv } from '../components/animations/animationsections'
 
 export function ContactPage() {
   const contacts = [
@@ -27,7 +28,7 @@ export function ContactPage() {
     <main>
       <section className="lg:px-[162px] px-4 mt-[150px] bg-absolute_white ">
         <div className="w-full flex flex-col gap-20">
-          <div className="flex flex-col gap-[10px] text-center justify-center items-center">
+          <AnimationDiv className="flex flex-col gap-[10px] text-center justify-center items-center">
             <Process />
             <h2 className="text-5xl text-GreyShades_900 font-bold leading-[72px] ">
               {contact.title}
@@ -35,9 +36,9 @@ export function ContactPage() {
             <span className="text-GreyShades_800 text-lg leading-[27px] font-normal ">
               {contact.description}
             </span>
-          </div>
+          </AnimationDiv>
 
-          <div className="w-full lg:h-[240px] bg-DarkGreen_700 flex lg:flex-row flex-col p-10 rounded gap-5 ">
+          <AnimationDiv className="w-full lg:h-[240px] bg-DarkGreen_700 flex lg:flex-row flex-col p-10 rounded gap-5 ">
             {contacts.map((item, index) => (
               <div
                 key={index}
@@ -49,9 +50,9 @@ export function ContactPage() {
                 </span>{' '}
               </div>
             ))}
-          </div>
+          </AnimationDiv>
 
-          <div className="lg:p-[80px] rounded-md p-[30px] flex flex-col lg:flex-row gap-[50px] bg-GreenShades_200  ">
+          <AnimationDiv className="lg:p-[80px] rounded-md p-[30px] flex flex-col lg:flex-row gap-[50px] bg-GreenShades_200  ">
             <Form />
             <div className="w-full ">
               <img
@@ -83,9 +84,9 @@ export function ContactPage() {
                 </a>
               </div>
             </div>
-          </div>
+          </AnimationDiv>
 
-          <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-20 mt-[100px] rounded-md p-4 lg:p-20 bg-GreenShades_200 border border-GreenShades_300">
+          <AnimationDiv className="w-full flex flex-col lg:flex-row justify-between items-center gap-20 mt-[100px] rounded-md p-4 lg:p-20 bg-GreenShades_200 border border-GreenShades_300">
             <div className="flex flex-col gap-[14px] ">
               <h4 className="text-GreyShades_900 font-bold  text-xl ">
                 {action.title}
@@ -97,7 +98,7 @@ export function ContactPage() {
             <Button className="w-full lg:w-[154px] " variant="primary">
               Agendar
             </Button>
-          </div>
+          </AnimationDiv>
         </div>
       </section>
     </main>

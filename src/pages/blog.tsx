@@ -1,3 +1,4 @@
+import { AnimationDiv } from '../components/animations/animationsections'
 import { Button } from '../components/button'
 import { blog } from '../configs/blogdata.json'
 
@@ -5,7 +6,7 @@ export function BlogsPage() {
   return (
     <main>
       <section className="lg:px-[162px] px-4  bg-absolute_white ">
-        <div className="w-full flex flex-col gap-20 mt-8 bg-GreenShades_200 rounded-t-lg lg:p-[100px] p-[30px] ">
+        <AnimationDiv className="w-full flex flex-col gap-20 mt-8 bg-GreenShades_200 rounded-t-lg lg:p-[100px] p-[30px] ">
           <div className="flex flex-col gap-[10px] text-center">
             <h2 className="text-5xl text-GreyShades_900 font-bold leading-[72px] ">
               {blog.title}{' '}
@@ -14,16 +15,16 @@ export function BlogsPage() {
               {blog.description}{' '}
             </span>
           </div>
-        </div>
-        <div className="bg-DarkGreen_600 h-28 w-full overflow-auto rounded-b-lg flex p-2 items-center self-stretch justify-center">
+        </AnimationDiv>
+        <AnimationDiv className="bg-DarkGreen_600 h-28 w-full overflow-auto rounded-b-lg flex p-2 items-center self-stretch justify-center">
           <h2 className="text-absolute_white font-bold lg:text-3xl text-2xl text-center">
             Aprenda tudo para uma saúde melhor !
           </h2>
-        </div>
+        </AnimationDiv>
 
         <div className="mt-[50px] grid lg:grid-cols-2 grid-cols-1 gap-6 ">
           {blog.cards.map((card) => (
-            <div
+            <AnimationDiv
               className="lg:p-[50px] p-[30px] border border-GreenShades_300 rounded-md "
               key={card.title}
             >
@@ -54,7 +55,7 @@ export function BlogsPage() {
                   Ler mais...
                 </Button>
               </div>
-            </div>
+            </AnimationDiv>
           ))}
         </div>
       </section>

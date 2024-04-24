@@ -1,4 +1,5 @@
 import coverHero from '../assets/about/aboutHero.webp'
+import { AnimationDiv } from '../components/animations/animationsections'
 import { Button } from '../components/button'
 import { welcome, Story, Company, action } from '../configs/aboutdata.json'
 
@@ -6,18 +7,20 @@ export function AboutPage() {
   return (
     <main>
       <section className="lg:px-[162px] px-4 mt-[100px] bg-absolute_white ">
-        <img src={coverHero} alt="" />
+        <AnimationDiv>
+          <img src={coverHero} alt="" />
 
-        <div className="lg:p-24 p-[30px] flex flex-col gap-[50px] ">
-          <h1 className="text-GreyShades_900 text-5xl leading-[72px] font-normal   ">
-            {welcome.title}{' '}
-          </h1>
-          <p className="text-lg leading-[27px] font-normal text-GreyShades_800 ">
-            {welcome.content}{' '}
-          </p>
-        </div>
+          <div className="lg:p-24 p-[30px] flex flex-col gap-[50px] ">
+            <h1 className="text-GreyShades_900 text-5xl leading-[72px] font-normal   ">
+              {welcome.title}{' '}
+            </h1>
+            <p className="text-lg leading-[27px] font-normal text-GreyShades_800 ">
+              {welcome.content}{' '}
+            </p>
+          </div>
+        </AnimationDiv>
 
-        <div className="w-full flex flex-col gap-20 mt-[100px]">
+        <AnimationDiv className="w-full flex flex-col gap-20 mt-[100px]">
           <div className="flex flex-col gap-[10px] text-center">
             <h2 className="text-5xl text-GreyShades_900 font-bold leading-[72px] ">
               {Story.title}{' '}
@@ -26,11 +29,11 @@ export function AboutPage() {
               {Story.description}{' '}
             </span>
           </div>
-        </div>
+        </AnimationDiv>
 
         <div className="flex flex-col mt-[60px] ">
           {Story.cards.map((card, index) => (
-            <div
+            <AnimationDiv
               key={card.title}
               className={`flex  w-full items-center justify-center lg:h-[420px] ${index % 2 === 0 ? 'lg:flex-row flex-col' : 'lg:flex-row-reverse flex-col'}`}
             >
@@ -50,23 +53,23 @@ export function AboutPage() {
                   {card.data}
                 </span>
               </div>
-            </div>
+            </AnimationDiv>
           ))}
         </div>
 
         <div className="w-full flex flex-col gap-20 mt-[100px]">
-          <div className="flex flex-col gap-[10px] text-center">
+          <AnimationDiv className="flex flex-col gap-[10px] text-center">
             <h2 className="text-5xl text-GreyShades_900 font-bold leading-[72px] ">
               {Company.title}{' '}
             </h2>
             <span className="ext-GreyShades_800 text-lg leading-[27px] font-normal ">
               {Company.description}{' '}
             </span>
-          </div>
+          </AnimationDiv>
 
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-[30px] ">
             {Company.cards.map((card) => (
-              <div
+              <AnimationDiv
                 className="flex flex-col items-start gap-6 p-10 bg-GreenShades_200 rounded-xl"
                 key={card.title}
               >
@@ -81,19 +84,19 @@ export function AboutPage() {
                 <p className="text-GreyShades_800 font-medium leading-[27px] text-md ">
                   {card.description}{' '}
                 </p>
-              </div>
+              </AnimationDiv>
             ))}
           </div>
 
           <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-20 mt-[100px] rounded-md p-4 lg:p-20 bg-GreenShades_200 border border-GreenShades_300">
-            <div className="flex flex-col gap-[14px] ">
+            <AnimationDiv className="flex flex-col gap-[14px] ">
               <h4 className="text-GreyShades_900 font-bold leading-[51px] text-[2.125rem] ">
                 {action.title}
               </h4>
               <p className="text-lg font-medium leading-[27px] text-GreyShades_800 ">
                 {action.description}
               </p>
-            </div>
+            </AnimationDiv>
             <Button
               asChild
               className="w-full lg:w-[154px] text-center "
