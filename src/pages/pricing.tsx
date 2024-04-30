@@ -56,7 +56,7 @@ export function PricingPage() {
                   {Ask.description}{' '}
                 </p>
                 <Button asChild>
-                  <a href="/contact">Faça uma pergunta</a>
+                  <a href="/contato">Faça uma pergunta</a>
                 </Button>
               </div>
             </div>

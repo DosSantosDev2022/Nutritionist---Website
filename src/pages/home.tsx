@@ -41,14 +41,14 @@ export function HomePage() {
 
             <div className="flex gap-5 mt-[50px] mb-8 ">
               <Button asChild className="w-[187px] font-bold text-center ">
-                <a href="/pricing">Comece hoje</a>
+                <a href="/preços">Comece hoje</a>
               </Button>
               <Button
                 asChild
                 className="w-[187px] font-bold text-center "
                 variant="outline"
               >
-                <a href="/contact">Agendar</a>
+                <a href="/contato">Agendar</a>
               </Button>
             </div>
 

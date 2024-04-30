@@ -8,32 +8,32 @@ import { Navigation } from './nav/index'
 export function Header() {
   const links = [
     {
-      name: 'Home',
+      name: 'Início',
       url: '/',
     },
     {
-      name: 'About',
-      url: '/about',
+      name: 'Sobre nós',
+      url: '/sobre',
     },
     {
-      name: 'Team',
-      url: '/team',
+      name: 'Nosso Time',
+      url: '/time',
     },
     {
-      name: 'Process',
-      url: '/process',
+      name: 'Processo',
+      url: '/processo',
     },
     {
-      name: 'Pricing',
-      url: '/pricing',
+      name: 'Preços',
+      url: '/preços',
     },
     {
       name: 'Blog',
       url: '/blog',
     },
     {
-      name: 'Contact',
-      url: '/contact',
+      name: 'Contato',
+      url: '/contato',
     },
   ]
   const [isOpen, setIsOpen] = useState(false)

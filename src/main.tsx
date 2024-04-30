@@ -24,19 +24,19 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: '/about',
+        path: '/sobre',
         element: <AboutPage />,
       },
       {
-        path: '/team',
+        path: '/time',
         element: <TeamPage />,
       },
       {
-        path: '/process',
+        path: '/processo',
         element: <ProcessPage />,
       },
       {
-        path: '/pricing',
+        path: '/preços',
         element: <PricingPage />,
       },
       {
@@ -44,7 +44,7 @@ const router = createBrowserRouter([
         element: <BlogsPage />,
       },
       {
-        path: '/contact',
+        path: '/contato',
         element: <ContactPage />,
       },
     ],
