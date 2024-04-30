@@ -5,12 +5,12 @@
     "image" : "/home/frame_00.webp",
      "title" : "Coaching Nutricional Personalizado",
      "subtitle": "Transforme sua ❤️ Saúde com",
-     "description" : "Seja bem-vindo ao Nutricionista, o seu aliado na busca pela saúde ideal através de um treinamento nutricional personalizado. Nossa equipe de nutricionistas certificados está pronta para guiá-lo em sua jornada de perda de peso, oferecendo planos feitos sob medida e suporte constante. Inicie a sua transformação hoje mesmo e descubra o impacto do coaching nutricional personalizado."
+     "description" : "Seja bem-vindo ao Nutritionist, o seu aliado na busca pela saúde ideal através de um treinamento nutricional personalizado. Nossa equipe de nutricionistas certificados está pronta para guiá-lo em sua jornada de perda de peso, oferecendo planos feitos sob medida e suporte constante. Inicie a sua transformação hoje mesmo e descubra o impacto do coaching nutricional personalizado."
   },
 
   "Features" : {
     "title" : "Características",
-    "subtitle": "Explore a Seção de Recursos do Nutricionista, o seu guia completo para informações e dicas sobre nutrição e bem-estar.",
+    "subtitle": "Explore a Seção de Recursos do Nutritionist, o seu guia completo para informações e dicas sobre nutrição e bem-estar.",
 
     "cards": [
       {
@@ -117,7 +117,7 @@
       },
       {
         "id" : "002",
-        "description": "A nutricionista foi uma virada de jogo para mim. A orientação especializada e o apoio que recebi de sua equipe tornaram minha jornada para perder peso muito mais fácil. Obrigado!",
+        "description": "A Nutritionist foi uma virada de jogo para mim. A orientação especializada e o apoio que recebi de sua equipe tornaram minha jornada para perder peso muito mais fácil. Obrigado!",
         "clientImage": "/src/assets/home/client01.webp",
         "clientName" : "Robert Johnson"
       },
@@ -140,21 +140,21 @@
         "subtitle" : "Até 50% de desconto no plano anual",
         "description" : "Comece sua jornada de saúde com nosso Plano Básico. Inclui treinamento nutricional personalizado, acesso ao nosso aplicativo, assistência no planejamento de refeições e suporte por e-mail.",
         "monthPrice" : "R$: 49,90",
-        "AnnualPricing": "R$: 24,90"
+        "AnnualPricing": "R$: 224,90"
       },
       {
-        "title" : "Plano Premium",
+        "title" : "Plano premium",
         "subtitle" : "Até 50% de desconto no plano anual",
         "description" : "Atualize para nosso plano Premium para obter recursos aprimorados. Além do Plano Básico, você receberá videoconsultas, suporte prioritário e recomendações de receitas personalizadas.",
         "monthPrice" : "R$: 79,90",
-        "AnnualPricing": "R$: 39,90"
+        "AnnualPricing": "R$: 339,90"
       },
       {
         "title" : "Plano ultimate",
         "subtitle" : "Até 50% de desconto no plano anual",
         "description" : "Experimente todos os benefícios do treinamento nutricional personalizado com nosso Plano Ultimate. Aproveite todos os recursos do Plano Premium, além de suporte por chat 24 horas por dia, 7 dias por semana e workshops exclusivos.",
         "monthPrice" : "R$: 99,90",
-        "AnnualPricing": "R$: 49,90"
+        "AnnualPricing": "R$: 449,90"
       }
     ]
   }
